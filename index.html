@@ -3,38 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Portifólio</title>
-    <style>
-        body {
-            background-color: black;
-            color: white;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        h1 {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
-        p {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 15px;
-        }
-        .foto {
-            border-radius: 150px;
-        }
-        .grande {
-            font-size: large;
-        }
-        .medio {
-            font-size: medium;
-        }
-        .pequeno {
-            font-size: small;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Antonio Carlos Quintão Marchiori</h1><br> 
-    <img src="Foto atual.jpg" alt="minha foto de perfil" width="300px" id="foto" class="foto"><br>
-    <p id="quem">Sou estudante de Desenvolvimento Web, <em>apaixonado por técnologia</em>, em transição de carreira, tendo trabalhado anteriormente no setor de telecomunicações.</p>
+    <!-- <div> -->
+        <h1>Antonio Carlos Quintão Marchiori</h1>
+        <div class="image-container">
+            <img src="Foto atual.jpg" alt="minha foto de perfil" width="300px" id="foto" class="minha-foto">
+            <p id="quem">Sou estudante de Desenvolvimento Web, <em>apaixonado por técnologia</em>, em transição de carreira, tendo trabalhado anteriormente no setor de telecomunicações.</p>
+        </div> 
+    <!-- </div> -->
     <p><strong>Brasileiro</strong>, casado e com um filho de 4 anos, morador da cidade de <strong>Praia Grande - SP</strong></p>
     <p id="hab"><h3>Minhas principais são:</h3></p><br>
     <ul>
@@ -49,11 +27,11 @@
         <li>Proativo</li>
         <li>Organizado</li>
     </ul><br>
-    <a href="#foto">Minha foto</a><br>
+    <a href="#minha-foto">Minha foto</a><br>
     <p id="blog"><h3>Meu blog preferido é: <a href="https://www.suzukionline.org/" target="_blank">Suzuki Online</a></h3></p><br><br>
     <p><h3>Indice:</h3></p>
     <ul>
-        <li><a href="#foto">Minha foto</a></li>
+        <li><a href="#minha-foto">Minha foto</a></li>
         <li><a href="#quem">Quem sou eu</a></li>
         <li><a href="#hab">Minhas habilidades</a></li>
         <li><a href="#blog">Blog preferido</a></li>
